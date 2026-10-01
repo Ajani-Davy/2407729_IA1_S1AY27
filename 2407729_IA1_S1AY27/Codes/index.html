@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web Portfolio of Ajani E. Davy (Student ID: 2407729) - CIT2011 Web Programming IA#1">
+  <meta name="author" content="Ajani E. Davy">
+  <title>Ajani E. Davy | Portfolio Home - CIT2011 IA#1</title>
+  
+  <!-- Google Fonts Permission per assignment specification -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- External Stylesheet linked across all pages -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body id="top">
+
+  <!-- Semantic Site Header with Branding & Navigation (Q1 & Q3) -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-block">
+        <span class="brand-title">Ajani E. Davy</span>
+        <span class="brand-subtitle">CIT2011 Web Programming &bull; Student ID: 2407729</span>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="professional.html" class="nav-link">Professional</a></li>
+          <li><a href="personality.html" class="nav-link">Personality</a></li>
+          <li><a href="development.html" class="nav-link">Personal Development</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main class="main-container">
+    
+    <!-- Hero Introduction Section -->
+    <section class="hero-banner" aria-labelledby="hero-title">
+      <h1 id="hero-title">Welcome to My Portfolio</h1>
+      <p class="hero-tagline">Computing Student &bull; Aspiring Systems Engineer &bull; CIT2011</p>
+      <p>
+        I am a computing student at the University of Technology, Jamaica (UTech). 
+        This site brings together my coursework for CIT2011, my career plans for software engineering at Apple, 
+        notes on how I approach problem solving, and reflections on George S. Clason's 
+        <em>The Richest Man in Babylon</em>.
+      </p>
+    </section>
+
+    <!-- Q1 Requirement: UTech Student ID Image with Local Mail Client Link -->
+    <section id="student-id-section" aria-labelledby="id-card-title">
+      <h2>UTech Student Identification &amp; Contact</h2>
+      <p>
+        My UTech student identification card is shown below. Clicking the card opens an email to my tutor, 
+        <em>canuli@utech.edu.jm</em>, with the course code and assignment details already filled into the subject line.
+      </p>
+
+      <div class="id-card-wrapper">
+        <a href="mailto:canuli@utech.edu.jm?subject=CIT2011%20IA%231%20Inquiry%20-%20A.%20Davy%20-%20ID%202407729&amp;body=Dear%20Mr.%20Anuli%2C%0A%0AMy%20name%20is%20A.%20Davy%20(ID%3A%202407729)%2C%20enrolled%20in%20CIT2011%20Web%20Programming.%20I%20am%20contacting%20you%20regarding%20my%20IA%231%20web%20portfolio.%0A%0ARespectfully%2C%0AA.%20Davy%0AStudent%20ID%3A%202407729" 
+           class="id-card-link" 
+           title="Click to send an email to tutor canuli@utech.edu.jm via local mail client">
+          <img src="../Assets/id_card.png" 
+               alt="Official UTech Student Identification Card - Ajani E. Davy 2407729" 
+               class="id-card-image"
+               width="440"
+               height="275">
+        </a>
+        <div class="id-prompt-badge">
+          <span>&#9993; Click ID above to email Tutor (canuli@utech.edu.jm)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Highlights / Overview Cards -->
+    <section aria-labelledby="overview-title">
+      <h2 id="overview-title">Portfolio Sections</h2>
+      <div class="grid-3col">
+        
+        <article class="card">
+          <h3>Professional Profile</h3>
+          <p>
+            A forward-looking resume aimed at a software engineering role at Apple, covering low-level systems programming, 
+            toolsets, and the lab exercises planned for CIT2011.
+          </p>
+          <a href="professional.html" class="nav-link" style="display:inline-block; padding:0; color:var(--color-accent-blue); font-weight:600;">
+            View Professional Page &rarr;
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Personality &amp; Vision</h3>
+          <p>
+            How being analytical, persistent, and detail-focused shapes my studies, why I study Steve Jobs's approach 
+            to hardware and software, and a short essay on where AI tools help or hurt students.
+          </p>
+          <a href="personality.html" class="nav-link" style="display:inline-block; padding:0; color:var(--color-accent-blue); font-weight:600;">
+            View Personality Page &rarr;
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Personal Development</h3>
+          <p>
+            Notes and reflections on two chapters from George S. Clason's <em>The Richest Man in Babylon</em>: 
+            "7 Cures for a Lean Purse" and "5 Laws of Gold", with takeaways for budgeting as a university student.
+          </p>
+          <a href="development.html" class="nav-link" style="display:inline-block; padding:0; color:var(--color-accent-blue); font-weight:600;">
+            View Personal Development &rarr;
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- University & Coursework Information Section (with external link per Q3) -->
+    <section class="card" aria-labelledby="course-info-title">
+      <h2 id="course-info-title">Academic Context</h2>
+      <p>
+        This portfolio was built for Individual Assignment 1 in <strong>CIT2011: Web Programming</strong> in the School 
+        of Computing and Information Technology (SCIT) at the 
+        <a href="https://www.utech.edu.jm/" target="_blank" rel="noopener noreferrer">University of Technology, Jamaica (UTech)</a>.
+      </p>
+      <p>
+        The assignment requires plain HTML5 and CSS3, with no frameworks or client-side scripts.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Semantic Footer Landmark -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p>&copy; 2026 Ajani E. Davy &bull; Student ID: 2407729 &bull; CIT2011 Web Programming</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="professional.html">Professional</a>
+        <a href="personality.html">Personality</a>
+        <a href="development.html">Personal Development</a>
+        <a href="#top" class="back-to-top">Back to Top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

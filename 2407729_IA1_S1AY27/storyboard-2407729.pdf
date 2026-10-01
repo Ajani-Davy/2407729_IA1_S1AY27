@@ -1,0 +1,243 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4463 >>
+stream
+0.118 0.161 0.231 rg 0 742 612 50 re f
+0.145 0.388 0.922 rg 0 738 612 4 re f
+BT /F2 15 Tf 1 1 1 rg 36 760 Td (CIT2011 Web Programming - IA#1 Storyboard & Specifications) Tj ET
+BT /F1 9 Tf 0.8 0.85 0.9 rg 36 748 Td (Student: Ajani E. Davy  |  ID: 2407729  |  Tutor: canuli@utech.edu.jm  |  Deliverable: storyboard-2407729.pdf) Tj ET
+BT /F2 13 Tf 0.059 0.090 0.165 rg 36 710 Td (1. Storyboard Wireframe Architecture (Q4.4.a)) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.33 rg 36 696 Td (Layout designs required for Desktop [min 950px] and Mobile [min 600px]. Webpages match layout.) Tj ET
+0.97 0.98 0.99 rg 36 210 255 470 re f
+0.58 0.64 0.72 RG 1 w [3 3] 0 d 36 210 255 470 re S [] 0 d
+BT /F2 10 Tf 0.12 0.16 0.23 rg 90 662 Td (DESKTOP LAYOUT [min 950px]) Tj ET
+0.12 0.16 0.23 rg 46 625 235 24 re f
+BT /F2 8 Tf 1 1 1 rg 54 633 Td (Brand: Ajani E. Davy) Tj /F1 7.5 Tf 145 633 Td (Home | Pro | Person | Dev) Tj ET
+0.15 0.20 0.28 rg 46 565 235 52 re f
+BT /F2 8.5 Tf 1 1 1 rg 54 598 Td (Hero Banner: Portfolio Heading & Bio) Tj ET
+BT /F1 7 Tf 0.8 0.85 0.9 rg 54 582 Td (Mission, Career Vision & UTech Institutional Context) Tj ET
+0.94 0.96 0.98 rg 46 470 235 85 re f
+0.80 0.84 0.88 RG 1 w 46 470 235 85 re S
+BT /F2 8 Tf 0.12 0.16 0.23 rg 70 540 Td (UTech Student ID Card (440x275px Native)) Tj ET
+0.145 0.388 0.922 rg 65 490 195 24 re f
+BT /F2 7.5 Tf 1 1 1 rg 75 500 Td ([CLICKABLE IMAGE -> mailto: Tutor Link]) Tj ET
+0.94 0.96 0.98 rg 46 385 73 75 re f 0.80 0.84 0.88 RG 1 w 46 385 73 75 re S
+0.94 0.96 0.98 rg 127 385 73 75 re f 0.80 0.84 0.88 RG 1 w 127 385 73 75 re S
+0.94 0.96 0.98 rg 208 385 73 75 re f 0.80 0.84 0.88 RG 1 w 208 385 73 75 re S
+BT /F2 7 Tf 0.12 0.16 0.23 rg 50 442 Td (Professional) Tj /F1 6.5 Tf 50 425 Td (Resume &) Tj 50 412 Td (CIT2011 Labs) Tj ET
+BT /F2 7 Tf 0.12 0.16 0.23 rg 132 442 Td (Personality) Tj /F1 6.5 Tf 132 425 Td (Traits & Steve) Tj 132 412 Td (Jobs, AI Blog) Tj ET
+BT /F2 7 Tf 0.12 0.16 0.23 rg 212 442 Td (Personal Dev) Tj /F1 6.5 Tf 212 425 Td (Babylon 7 Cures) Tj 212 412 Td (& 5 Laws Gold) Tj ET
+1 1 1 rg 46 280 235 95 re f 0.80 0.84 0.88 RG 1 w 46 280 235 95 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 54 358 Td (CIT2011 Coursework & Labs Data Table) Tj ET
+BT /F1 6.5 Tf 0.3 0.35 0.4 rg 54 340 Td (Session | Module Objective | Technical Focus | Status) Tj ET
+BT /F1 6.5 Tf 0.3 0.35 0.4 rg 54 322 Td (Lab #1: Semantic HTML5 Structure [Integrated]) Tj ET
+BT /F1 6.5 Tf 0.3 0.35 0.4 rg 54 305 Td (Lab #2: Data Tables & Forms [Integrated]) Tj ET
+0.059 0.090 0.165 rg 46 230 235 25 re f
+BT /F1 7 Tf 0.8 0.85 0.9 rg 65 240 Td (Footer: Copyright 2026 Ajani E. Davy | Bookmark Anchors) Tj ET
+0.97 0.98 0.99 rg 321 210 255 470 re f
+0.58 0.64 0.72 RG 1 w [3 3] 0 d 321 210 255 470 re S [] 0 d
+BT /F2 10 Tf 0.12 0.16 0.23 rg 380 662 Td (MOBILE LAYOUT [min 600px]) Tj ET
+0.12 0.16 0.23 rg 345 618 207 30 re f
+BT /F2 8 Tf 1 1 1 rg 410 635 Td (Ajani E. Davy) Tj /F1 7 Tf 385 623 Td (CIT2011 | ID: 2407729) Tj ET
+0.20 0.26 0.34 rg 345 580 207 30 re f
+BT /F1 7 Tf 1 1 1 rg 365 595 Td ([Stacked Nav: Home | Pro | Person | Dev]) Tj ET
+0.15 0.20 0.28 rg 345 528 207 44 re f
+BT /F2 7.5 Tf 1 1 1 rg 370 555 Td (Hero Banner [Full 100% Width]) Tj ET
+BT /F1 6.5 Tf 0.8 0.85 0.9 rg 355 540 Td (Mission Statement & Academic Context) Tj ET
+0.94 0.96 0.98 rg 345 440 207 78 re f 0.80 0.84 0.88 RG 1 w 345 440 207 78 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 355 498 Td (Responsive ID Image (440x275 Native)) Tj ET
+0.145 0.388 0.922 rg 360 455 177 24 re f
+BT /F2 7 Tf 1 1 1 rg 378 463 Td ([Tap to Email Tutor: canuli@utech]) Tj ET
+1 1 1 rg 345 375 207 55 re f 0.80 0.84 0.88 RG 1 w 345 375 207 55 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 355 412 Td (Card 1: Professional [100% Stacked]) Tj ET
+BT /F1 6.5 Tf 0.3 0.35 0.4 rg 355 395 Td (Resume & Software Engineering Targets) Tj ET
+1 1 1 rg 345 305 207 58 re f 0.80 0.84 0.88 RG 1 w 345 305 207 58 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 355 342 Td (Card 2: Personality [100% Stacked]) Tj ET
+BT /F1 6.5 Tf 0.3 0.35 0.4 rg 355 325 Td (Analytical, Persistent, Precision & AI Essay) Tj ET
+0.059 0.090 0.165 rg 345 230 207 35 re f
+BT /F1 7 Tf 0.8 0.85 0.9 rg 370 247 Td (Mobile Footer: Single Column) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.5 rg 36 170 Td (Key Layout Compliance: Mobile view employs single-column stacking with fluid touch targets; desktop view utilizes multi-column CSS grid.) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.5 rg 36 155 Td (Breakpoints: Desktop [>950px], Tablet [600px - 950px], Mobile [<600px]. Webpages match layout exactly.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 7542 >>
+stream
+0.118 0.161 0.231 rg 0 742 612 50 re f
+0.145 0.388 0.922 rg 0 738 612 4 re f
+BT /F2 15 Tf 1 1 1 rg 36 760 Td (2. Design System Asset Specifications & Hosting (Q4.4.b, c, d)) Tj ET
+BT /F1 9 Tf 0.8 0.85 0.9 rg 36 748 Td (Palette with RGB values, Icons with dimensions, Typography, GitHub & Free Hosting Links) Tj ET
+BT /F2 12 Tf 0.059 0.090 0.165 rg 36 710 Td (A. Color Palette Specifications [Including Exact RGB & HEX Values]) Tj ET
+0.94 0.96 0.98 rg 36 675 540 20 re f 0.80 0.84 0.88 RG 1 w 36 675 540 20 re S
+BT /F2 8 Tf 0.12 0.16 0.23 rg 42 682 Td (Role / Token Name) Tj 155 682 Td (Swatch) Tj 205 682 Td (HEX Code) Tj 275 682 Td (RGB Values) Tj 385 682 Td (Application in Theme) Tj ET
+0.80 0.84 0.88 RG 1 w 36 657 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 662 Td (Primary Navy) Tj ET
+0.118 0.161 0.231 rg 158 660 24 12 re f 0.4 0.4 0.4 RG 0.5 w 158 660 24 12 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 205 662 Td (#1e293b) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 275 662 Td (rgb(30, 41, 59)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 385 662 Td (Site header, hero gradient, button accents) Tj ET
+0.80 0.84 0.88 RG 1 w 36 639 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 644 Td (Navy Dark) Tj ET
+0.059 0.09 0.165 rg 158 642 24 12 re f 0.4 0.4 0.4 RG 0.5 w 158 642 24 12 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 205 644 Td (#0f172a) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 275 644 Td (rgb(15, 23, 42)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 385 644 Td (Headings (h1, h2), site footer, deep text) Tj ET
+0.80 0.84 0.88 RG 1 w 36 621 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 626 Td (Slate Blue) Tj ET
+0.145 0.196 0.282 rg 158 624 24 12 re f 0.4 0.4 0.4 RG 0.5 w 158 624 24 12 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 205 626 Td (#253248) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 275 626 Td (rgb(37, 50, 72)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 385 626 Td (Hero secondary gradient, sub-headings) Tj ET
+0.80 0.84 0.88 RG 1 w 36 603 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 608 Td (Muted Blue) Tj ET
+0.2 0.255 0.333 rg 158 606 24 12 re f 0.4 0.4 0.4 RG 0.5 w 158 606 24 12 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 205 608 Td (#334155) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 275 608 Td (rgb(51, 65, 85)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 385 608 Td (Body text paragraphs, secondary labels) Tj ET
+0.80 0.84 0.88 RG 1 w 36 585 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 590 Td (Accent Blue) Tj ET
+0.145 0.388 0.922 rg 158 588 24 12 re f 0.4 0.4 0.4 RG 0.5 w 158 588 24 12 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 205 590 Td (#2563eb) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 275 590 Td (rgb(37, 99, 235)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 385 590 Td (Active navigation link, mailto border, links) Tj ET
+0.80 0.84 0.88 RG 1 w 36 567 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 572 Td (Silver Light) Tj ET
+0.973 0.98 0.988 rg 158 570 24 12 re f 0.4 0.4 0.4 RG 0.5 w 158 570 24 12 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 205 572 Td (#f8fafc) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 275 572 Td (rgb(248, 250, 252)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 385 572 Td (Body canvas background, clean background) Tj ET
+0.80 0.84 0.88 RG 1 w 36 549 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 554 Td (Silver Card) Tj ET
+0.945 0.961 0.976 rg 158 552 24 12 re f 0.4 0.4 0.4 RG 0.5 w 158 552 24 12 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 205 554 Td (#f1f5f9) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 275 554 Td (rgb(241, 245, 249)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 385 554 Td (Card backgrounds, table headers, containers) Tj ET
+0.80 0.84 0.88 RG 1 w 36 531 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 536 Td (Silver Border) Tj ET
+0.796 0.835 0.882 rg 158 534 24 12 re f 0.4 0.4 0.4 RG 0.5 w 158 534 24 12 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 205 536 Td (#cbd5e1) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 275 536 Td (rgb(203, 213, 225)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 385 536 Td (Dividers, card borders, table borders) Tj ET
+0.80 0.84 0.88 RG 1 w 36 513 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 518 Td (Silver Dark) Tj ET
+0.58 0.639 0.722 rg 158 516 24 12 re f 0.4 0.4 0.4 RG 0.5 w 158 516 24 12 re S
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 205 518 Td (#94a3b8) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 275 518 Td (rgb(148, 163, 184)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 385 518 Td (Subdued captions, metadata, icons) Tj ET
+BT /F2 12 Tf 0.059 0.090 0.165 rg 36 480 Td (B. Icons, Graphic Assets & Dimensions Specifications) Tj ET
+0.94 0.96 0.98 rg 36 455 540 20 re f 0.80 0.84 0.88 RG 1 w 36 455 540 20 re S
+BT /F2 8 Tf 0.12 0.16 0.23 rg 42 462 Td (Asset / Icon Name) Tj 170 462 Td (File Path / Origin) Tj 290 462 Td (Dimensions) Tj 380 462 Td (Functional Purpose) Tj ET
+0.80 0.84 0.88 RG 1 w 36 437 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 442 Td (UTech Student ID Card) Tj ET
+BT /F2 7 Tf 0.145 0.388 0.922 rg 170 442 Td (Assets/id_card.png) Tj ET
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 290 442 Td (440 x 275 px (Native)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 380 442 Td (Visual identity & Mailto trigger link to tutor) Tj ET
+0.80 0.84 0.88 RG 1 w 36 419 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 424 Td (Steve Jobs Portrait) Tj ET
+BT /F2 7 Tf 0.145 0.388 0.922 rg 170 424 Td (Assets/steve_jobs.png) Tj ET
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 290 424 Td (220 x 251 px (Source: 575x657)) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 380 424 Td (Hero / Mentor image on Personality page) Tj ET
+0.80 0.84 0.88 RG 1 w 36 401 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 406 Td (Local Mail Trigger Icon) Tj ET
+BT /F2 7 Tf 0.145 0.388 0.922 rg 170 406 Td (Unicode [Mail] (Google Materials)) Tj ET
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 290 406 Td (20 x 20 px) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 380 406 Td (Actionable visual badge for tutor email) Tj ET
+0.80 0.84 0.88 RG 1 w 36 383 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 388 Td (External Link Glyph) Tj ET
+BT /F2 7 Tf 0.145 0.388 0.922 rg 170 388 Td (CSS [Arrow] (::after)) Tj ET
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 290 388 Td (14 x 14 px) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 380 388 Td (Indicates links opening in new browser tabs) Tj ET
+0.80 0.84 0.88 RG 1 w 36 365 540 18 re S
+BT /F1 7.5 Tf 0.12 0.16 0.23 rg 42 370 Td (Bookmark Anchor Glyph) Tj ET
+BT /F2 7 Tf 0.145 0.388 0.922 rg 170 370 Td (CSS [Arrow] Jump-links) Tj ET
+BT /F2 7.5 Tf 0.12 0.16 0.23 rg 290 370 Td (16 x 16 px) Tj ET
+BT /F1 7 Tf 0.3 0.35 0.4 rg 380 370 Td (Jump-links for internal page bookmark navigation) Tj ET
+BT /F2 12 Tf 0.059 0.090 0.165 rg 36 332 Td (C. Typography & Global Root Settings) Tj ET
+BT /F1 8 Tf 0.2 0.25 0.3 rg 42 314 Td (- Base Font Family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif [Google Fonts]) Tj ET
+BT /F1 8 Tf 0.2 0.25 0.3 rg 42 300 Td (- Root Base Font Size: 16px (1rem)  |  Root Font Weight: 400 (Regular)  |  Headings Weight: 600 / 700) Tj ET
+BT /F1 8 Tf 0.2 0.25 0.3 rg 42 286 Td (- Root Line Height: 1.65 (paragraphs), 1.3 (headings) for optimal WCAG 2.1 AAA readability) Tj ET
+BT /F2 12 Tf 0.059 0.090 0.165 rg 36 261 Td (D. Project Links: GitHub Repository & Free Hosting (Q4.4.c, d)) Tj ET
+0.94 0.96 0.98 rg 36 216 540 40 re f 0.145 0.388 0.922 RG 2 w 36 216 540 40 re S
+BT /F2 8.5 Tf 0.12 0.16 0.23 rg 46 240 Td (Official GitHub Repository Link (Q4.4.c):) Tj ET
+BT /F2 8.5 Tf 0.145 0.388 0.922 rg 46 226 Td (https://github.com/Ajani-Davy?tab=repositories) Tj ET
+0.94 0.96 0.98 rg 36 168 540 40 re f 0.145 0.388 0.922 RG 2 w 36 168 540 40 re S
+BT /F2 8.5 Tf 0.12 0.16 0.23 rg 46 192 Td (Live Free Hosting Production Link (Q4.4.d):) Tj ET
+BT /F2 8.5 Tf 0.145 0.388 0.922 rg 46 178 Td (https://ajani-davy.github.io/2407729_IA1_S1AY27/Codes/index.html) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 4264 >>
+stream
+0.118 0.161 0.231 rg 0 742 612 50 re f
+0.145 0.388 0.922 rg 0 738 612 4 re f
+BT /F2 15 Tf 1 1 1 rg 36 760 Td (3. Bibliographic References (APA 7th) & Validation (Q4.4.e, Q5)) Tj ET
+BT /F1 9 Tf 0.8 0.85 0.9 rg 36 748 Td (Curated APA citations of all required sources used & W3C validation verification) Tj ET
+BT /F2 12 Tf 0.059 0.090 0.165 rg 36 710 Td (A. APA 7th Edition Formatted Reference List (Q4.4.e - Strictly Necessary Sources)) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 36 690 Td (Clason, G. S. \(1926\). The richest man in Babylon. International Cultural Relations and Research) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 56 680 Td (Development \(ICRRD\). https://icrrd.com/public/media/16-05-2021-070111The-Richest-Man-in-Babylon.pdf) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 36 666 Td (Cotton, D. R., Cotton, P. A., & Shipway, J. R. \(2023\). Chatting and cheating: Ensuring academic in the) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 56 656 Td (integrity era of ChatGPT. Innovations in Education and Teaching International, 61\(2\), 228-239. https://doi.org/10.1080/14703297.2023.2190148) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 36 642 Td (Harvard University Faculty of Arts and Sciences. \(2024\). Create a strong resume. Harvard Mignone Center) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 56 632 Td (for Career Success. https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 36 618 Td (Indeed Editorial Team. \(2024\). What makes a good resume? Guide and examples. Indeed Career Guide.) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 56 608 Td (https://www.indeed.com/career-advice/resumes-cover-letters/what-makes-a-good-resume) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 36 594 Td (Isaacson, W. \(2011\). Steve Jobs. Simon & Schuster.) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 36 580 Td (Kasneci, E., Sessler, K., Kuchemann, S., Bannert, M., Dementieva, D., Fischer, F., ... & Kasneci, G. On) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 56 570 Td (\(2023\). ChatGPT for good? opportunities and challenges of large language models for education. Learning and Individual Differences, 103, 102274. https://doi.org/10.1016/j.lindif.2023.102274) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 36 556 Td (Mollick, E. R., & Mollick, L. \(2023\). Using AI to implement effective teaching strategies in Five of) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.33 rg 56 546 Td (classrooms: strategies, including prompts. Wharton School Research Paper, University Pennsylvania. https://dx.doi.org/10.2139/ssrn.4391243) Tj ET
+BT /F2 12 Tf 0.059 0.090 0.165 rg 36 517 Td (B. Technical Accuracy & W3C Standards Verification (Q5)) Tj ET
+0.94 0.96 0.98 rg 36 407 540 100 re f 0.145 0.388 0.922 RG 1.5 w 36 407 540 100 re S
+BT /F2 8.5 Tf 0.12 0.16 0.23 rg 46 492 Td (W3C Validation Verification Report [https://validator.w3.org/#validate_by_upload]:) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 46 476 Td ([PASS] Codes/index.html: ZERO errors, ZERO fatal warnings. Proper doctype, lang='en', meta tags, semantic tags.) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 46 462 Td ([PASS] Codes/professional.html: ZERO errors. Harvard structure, data table scope attributes, valid mailto & anchors.) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 46 448 Td ([PASS] Codes/personality.html: ZERO errors. Valid figure/figcaption, blockquote, cited academic text.) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 46 434 Td ([PASS] Codes/development.html: ZERO errors. Internal bookmark jump-links verified [#cures, #laws, #personal-alignment].) Tj ET
+BT /F1 7.5 Tf 0.2 0.25 0.3 rg 46 420 Td ([PASS] style.css: ZERO CSS3 parse errors. Valid CSS variables (:root), 8 selector types, 2 responsive media queries.) Tj ET
+BT /F2 8.5 Tf 0.059 0.090 0.165 rg 36 382 Td (Assignment Rules Compliance Checklist:) Tj ET
+BT /F1 8 Tf 0.2 0.25 0.3 rg 46 368 Td (- Zero JavaScript / Zero Prohibited Frameworks: Strictly Vanilla HTML5 & CSS3 used throughout.) Tj ET
+BT /F1 8 Tf 0.2 0.25 0.3 rg 46 356 Td (- Permitted Resources: Google Fonts ['Inter'] & Google Materials only.) Tj ET
+BT /F1 8 Tf 0.2 0.25 0.3 rg 46 344 Td (- Strict Folder Structure: Codes/ -> all HTML files, Assets/ -> all images/media, style.css -> root.) Tj ET
+BT /F1 8 Tf 0.2 0.25 0.3 rg 46 332 Td (- Root Folder Naming: 2407729_IA1_S1AY27 [matches Student ID per syllabus convention].) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000230 00000 n 
+0000000332 00000 n 
+0000000468 00000 n 
+0000004983 00000 n 
+0000005119 00000 n 
+0000012713 00000 n 
+0000012850 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+17167
+%%EOF

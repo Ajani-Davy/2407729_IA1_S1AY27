@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storyboard &amp; Project Specification Deliverable - Ajani E. Davy (ID: 2407729)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary-navy: #1e293b;
+      --color-navy-dark: #0f172a;
+      --color-slate-blue: #253248;
+      --color-accent-blue: #2563eb;
+      --color-silver-light: #f8fafc;
+      --color-silver-card: #f1f5f9;
+      --color-silver-border: #cbd5e1;
+      --color-silver-dark: #94a3b8;
+      --color-text-main: #0f172a;
+      --font-family-base: 'Inter', -apple-system, sans-serif;
+    }
+
+    body {
+      font-family: var(--font-family-base);
+      line-height: 1.6;
+      color: #334155;
+      background-color: var(--color-silver-light);
+      margin: 0;
+      padding: 2rem 1rem;
+    }
+
+    .doc-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid var(--color-silver-border);
+      border-radius: 8px;
+      padding: 3rem;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.08);
+    }
+
+    header {
+      border-bottom: 3px solid var(--color-accent-blue);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      color: var(--color-navy-dark);
+      font-size: 2.2rem;
+      margin: 0 0 0.5rem 0;
+    }
+
+    .meta-subtitle {
+      font-size: 1rem;
+      color: var(--color-slate-blue);
+      font-weight: 500;
+    }
+
+    h2 {
+      color: var(--color-primary-navy);
+      font-size: 1.5rem;
+      border-bottom: 2px solid var(--color-silver-border);
+      padding-bottom: 0.4rem;
+      margin-top: 2.5rem;
+    }
+
+    h3 {
+      color: var(--color-slate-blue);
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    /* Wireframe Styles */
+    .wireframe-comparison {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    .wireframe-box {
+      border: 2px dashed var(--color-silver-dark);
+      background-color: #f8fafc;
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+
+    .wireframe-title {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: var(--color-primary-navy);
+      font-size: 1.05rem;
+    }
+
+    .wf-component {
+      background: #ffffff;
+      border: 1px solid var(--color-silver-border);
+      border-radius: 4px;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+      text-align: center;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .wf-header { background: #1e293b; color: #ffffff; }
+    .wf-nav { background: #334155; color: #ffffff; }
+    .wf-hero { background: #253248; color: #ffffff; padding: 1.25rem 0.5rem; }
+    .wf-content { background: #f1f5f9; border: 1px solid #cbd5e1; }
+    .wf-footer { background: #0f172a; color: #94a3b8; }
+
+    .wf-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .wf-grid-1 {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+    }
+
+    th, td {
+      border: 1px solid var(--color-silver-border);
+      padding: 0.75rem 1rem;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background-color: var(--color-silver-card);
+      color: var(--color-primary-navy);
+    }
+
+    .swatch {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      border-radius: 4px;
+      border: 1px solid #64748b;
+      vertical-align: middle;
+      margin-right: 0.5rem;
+    }
+
+    .link-callout {
+      background: var(--color-silver-card);
+      border-left: 4px solid var(--color-accent-blue);
+      padding: 1rem 1.5rem;
+      border-radius: 0 6px 6px 0;
+      margin: 1rem 0;
+      word-break: break-all;
+    }
+
+    .apa-list {
+      padding-left: 2rem;
+      font-size: 0.92rem;
+      line-height: 1.8;
+    }
+
+    .apa-list li {
+      margin-bottom: 1rem;
+      text-indent: -2rem;
+      padding-left: 2rem;
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .doc-container { border: none; box-shadow: none; padding: 0; }
+      h2 { page-break-before: always; }
+      h2:first-of-type { page-break-before: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="doc-container">
+    <header>
+      <h1>IA#1 Storyboard &amp; Architecture Specification</h1>
+      <div class="meta-subtitle">
+        Course: CIT2011 Web Programming &bull; Semester 1 AY2026<br>
+        Student Name: Ajani E. Davy &bull; Student ID: 2407729 &bull; Tutor: canuli@utech.edu.jm<br>
+        Companion Deliverable: <code>storyboard-2407729.pdf</code>
+      </div>
+    </header>
+
+    <!-- SECTION 1: STORYBOARD (Q4.4.a) -->
+    <section>
+      <h2>1. Storyboard Layout Designs (Mobile &amp; Desktop Wireframes)</h2>
+      <p>
+        In compliance with Question 4(4)(a), two separate layout design wireframes are detailed below:
+        one for <strong>Desktop screens (min 950px viewport)</strong> and one for 
+        <strong>Mobile screens (min 600px viewport)</strong>. The implemented portfolio HTML5/CSS3 pages 
+        strictly adhere to this structural hierarchy.
+      </p>
+
+      <div class="wireframe-comparison">
+        
+        <!-- Desktop Wireframe (min 950px) -->
+        <div class="wireframe-box">
+          <div class="wireframe-title">&bull; DESKTOP LAYOUT (Min 950px) &bull;</div>
+          
+          <div class="wf-component wf-header">
+            [HEADER: Flexbox Space-Between]<br>
+            Ajani E. Davy (Brand) &nbsp;&bull;&nbsp; CIT2011 | ID: 2407729
+          </div>
+
+          <div class="wf-component wf-nav">
+            [HORIZONTAL NAV BAR: 4 Links]<br>
+            Home &nbsp;|&nbsp; Professional &nbsp;|&nbsp; Personality &nbsp;|&nbsp; Personal Dev
+          </div>
+
+          <div class="wf-component wf-hero">
+            [HERO BANNER: Full-Width Gradient]<br>
+            Title Heading (H1) &bull; Mission Subheading &bull; Narrative Intro
+          </div>
+
+          <div class="wf-component wf-content" style="background:#e2e8f0; font-weight:600;">
+            [STUDENT ID CARD COMPONENT]<br>
+            Centered Image (440px) &bull; Mailto Link with Auto-Subject
+          </div>
+
+          <div class="wf-grid-3">
+            <div class="wf-component wf-content">Card 1<br>Professional</div>
+            <div class="wf-component wf-content">Card 2<br>Personality</div>
+            <div class="wf-component wf-content">Card 3<br>Personal Dev</div>
+          </div>
+
+          <div class="wf-component wf-content">
+            [2-COLUMN CONTENT &amp; CIT2011 LAB REGISTRY TABLE]
+          </div>
+
+          <div class="wf-component wf-footer">
+            [FOOTER: Copyright 2026 Ajani E. Davy &bull; Anchor Links &bull; Back to Top]
+          </div>
+        </div>
+
+        <!-- Mobile Wireframe (min 600px) -->
+        <div class="wireframe-box">
+          <div class="wireframe-title">&bull; MOBILE LAYOUT (Min 600px) &bull;</div>
+          
+          <div class="wf-component wf-header">
+            [HEADER: Centered Column]<br>
+            Ajani E. Davy<br>
+            <span style="font-size:0.75rem;">ID: 2407729</span>
+          </div>
+
+          <div class="wf-component wf-nav" style="padding:0.5rem 0.25rem;">
+            [STACKED NAV PILLS]<br>
+            Home &bull; Professional<br>
+            Personality &bull; Personal Dev
+          </div>
+
+          <div class="wf-component wf-hero" style="padding:0.75rem 0.25rem;">
+            [HERO BANNER: Compact]<br>
+            Title &amp; Condensed Intro
+          </div>
+
+          <div class="wf-component wf-content" style="background:#e2e8f0; font-weight:600;">
+            [STUDENT ID IMAGE]<br>
+            100% Fluid Width (Max 360px)<br>
+            Tap to Email Tutor Link
+          </div>
+
+          <div class="wf-grid-1">
+            <div class="wf-component wf-content">Card 1: Professional (100% Width)</div>
+            <div class="wf-component wf-content">Card 2: Personality (100% Width)</div>
+            <div class="wf-component wf-content">Card 3: Personal Dev (100% Width)</div>
+          </div>
+
+          <div class="wf-component wf-content">
+            [SCROLLABLE LAB TABLE / STACKED CARDS]
+          </div>
+
+          <div class="wf-component wf-footer">
+            [FOOTER: Stacked Navigation &bull; Copyright]
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 2: ASSET SPECIFICATION (Q4.4.b) -->
+    <section>
+      <h2>2. Asset Specification &amp; Design System Palette</h2>
+      <p>
+        The visual language of the website is built upon a curated <strong>minimalist, muted blue, and bluish silver theme</strong>, 
+        incorporating strict typography hierarchy and precise asset dimensions.
+      </p>
+
+      <h3>A. Color Palette Specifications</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Role / Token</th>
+            <th>Sample</th>
+            <th>HEX Code</th>
+            <th>RGB Values</th>
+            <th>Application</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Primary Navy</td>
+            <td><span class="swatch" style="background:#1e293b;"></span>#1e293b</td>
+            <td><code>#1e293b</code></td>
+            <td><code>rgb(30, 41, 59)</code></td>
+            <td>Header background, hero primary gradient, primary buttons</td>
+          </tr>
+          <tr>
+            <td>Navy Dark</td>
+            <td><span class="swatch" style="background:#0f172a;"></span>#0f172a</td>
+            <td><code>#0f172a</code></td>
+            <td><code>rgb(15, 23, 42)</code></td>
+            <td>Page headings (h1, h2), footer background, high-contrast text</td>
+          </tr>
+          <tr>
+            <td>Slate Blue</td>
+            <td><span class="swatch" style="background:#253248;"></span>#253248</td>
+            <td><code>#253248</code></td>
+            <td><code>rgb(37, 50, 72)</code></td>
+            <td>Hero secondary gradient, sub-headings (h4), card accents</td>
+          </tr>
+          <tr>
+            <td>Muted Blue</td>
+            <td><span class="swatch" style="background:#334155;"></span>#334155</td>
+            <td><code>#334155</code></td>
+            <td><code>rgb(51, 65, 85)</code></td>
+            <td>Body paragraph text, secondary headings (h3), nav hover</td>
+          </tr>
+          <tr>
+            <td>Accent Blue</td>
+            <td><span class="swatch" style="background:#2563eb;"></span>#2563eb</td>
+            <td><code>#2563eb</code></td>
+            <td><code>rgb(37, 99, 235)</code></td>
+            <td>Active nav links, hyperlink states, interactive highlights</td>
+          </tr>
+          <tr>
+            <td>Silver Light</td>
+            <td><span class="swatch" style="background:#f8fafc;"></span>#f8fafc</td>
+            <td><code>#f8fafc</code></td>
+            <td><code>rgb(248, 250, 252)</code></td>
+            <td>Overall body canvas background</td>
+          </tr>
+          <tr>
+            <td>Silver Card</td>
+            <td><span class="swatch" style="background:#f1f5f9;"></span>#f1f5f9</td>
+            <td><code>#f1f5f9</code></td>
+            <td><code>rgb(241, 245, 249)</code></td>
+            <td>Card surfaces, table headers, table of contents container</td>
+          </tr>
+          <tr>
+            <td>Silver Border</td>
+            <td><span class="swatch" style="background:#cbd5e1;"></span>#cbd5e1</td>
+            <td><code>#cbd5e1</code></td>
+            <td><code>rgb(203, 213, 225)</code></td>
+            <td>Card borders, divider lines, table cell boundaries</td>
+          </tr>
+          <tr>
+            <td>Silver Dark</td>
+            <td><span class="swatch" style="background:#94a3b8;"></span>#94a3b8</td>
+            <td><code>#94a3b8</code></td>
+            <td><code>rgb(148, 163, 184)</code></td>
+            <td>Muted captions, secondary dates, tagline text</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>B. Icons &amp; Graphic Asset Specifications</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Asset Name</th>
+            <th>File Path / Source</th>
+            <th>Intended Dimensions</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>UTech Student ID Card</td>
+            <td><code>Assets/id_card.png</code></td>
+            <td>440px &times; 275px</td>
+            <td>Identity verification &amp; interactive <code>mailto:</code> link to tutor</td>
+          </tr>
+          <tr>
+            <td>Steve Jobs Portrait</td>
+            <td><code>Assets/steve_jobs.png</code></td>
+            <td>220px &times; 251px (Source: 575&times;657)</td>
+            <td>Hero / Mentor portrait on Personality webpage</td>
+          </tr>
+          <tr>
+            <td>Email Trigger Glyph</td>
+            <td>Unicode <code>&#9993;</code> (Google Materials)</td>
+            <td>20px &times; 20px</td>
+            <td>Visual call-to-action for the student mailto interaction</td>
+          </tr>
+          <tr>
+            <td>External Arrow Glyph</td>
+            <td>Unicode <code>\2197</code> (CSS <code>::after</code>)</td>
+            <td>14px &times; 14px</td>
+            <td>Indicates external hyperlinks opening in new windows</td>
+          </tr>
+          <tr>
+            <td>Back to Top Anchor</td>
+            <td>Unicode <code>&uarr;</code> / <code>&darr;</code></td>
+            <td>16px &times; 16px</td>
+            <td>Internal bookmark jump indicators</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>C. Typography &amp; Root Rules</h3>
+      <ul>
+        <li><strong>Base Font Family:</strong> <code>'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif</code> (Google Fonts)</li>
+        <li><strong>Heading Font Family:</strong> <code>'Inter', -apple-system, BlinkMacSystemFont, sans-serif</code></li>
+        <li><strong>Root Font Size:</strong> 16px (scalable rem units throughout)</li>
+        <li><strong>Root Font Weight:</strong> 400 (Regular)</li>
+        <li><strong>Heading Font Weight:</strong> 600 (Semi-Bold) and 700 (Bold)</li>
+        <li><strong>Base Line Height:</strong> 1.65 (ensuring optimal readability and WCAG accessibility)</li>
+      </ul>
+    </section>
+
+    <!-- SECTION 3: REPOSITORY & HOSTING DETAILS (Q4.4.c & Q4.4.d) -->
+    <section>
+      <h2>3. Repository &amp; Free Hosting Links</h2>
+      <p>
+        In accordance with Questions 4(4)(c) and 4(4)(d), the source code repository and production hosting 
+        link are established under the student account structure:
+      </p>
+
+      <div class="link-callout">
+        <strong>GitHub Repository Link:</strong><br>
+        <a href="https://github.com/Ajani-Davy?tab=repositories" target="_blank" rel="noopener noreferrer">
+          https://github.com/Ajani-Davy?tab=repositories
+        </a>
+        <br><span style="font-size:0.85rem; color:#64748b;">Repository Path: <code>https://github.com/Ajani-Davy/2407729_IA1_S1AY27</code></span>
+      </div>
+
+      <div class="link-callout">
+        <strong>Free Hosting Production Link:</strong><br>
+        <a href="https://ajani-davy.github.io/2407729_IA1_S1AY27/Codes/index.html" target="_blank" rel="noopener noreferrer">
+          https://ajani-davy.github.io/2407729_IA1_S1AY27/Codes/index.html
+        </a>
+      </div>
+
+      <p style="font-size:0.9rem; color:#64748b;">
+        <em>Directory Structure in Repository:</em><br>
+        <code>2407729_IA1_S1AY27/</code> &rarr; Root directory<br>
+        &nbsp;&nbsp;&bull; <code>Codes/</code> &rarr; Contains <code>index.html</code>, <code>professional.html</code>, <code>personality.html</code>, <code>development.html</code><br>
+        &nbsp;&nbsp;&bull; <code>Assets/</code> &rarr; Contains <code>id_card.png</code>, <code>steve_jobs.png</code>, <code>storyboard-2407729.pdf</code><br>
+        &nbsp;&nbsp;&bull; <code>style.css</code> &rarr; External stylesheet linked to all pages<br>
+        &nbsp;&nbsp;&bull; <code>storyboard-2407729.pdf</code> &rarr; Deliverable documentation
+      </p>
+    </section>
+
+    <!-- SECTION 4: APA FORMATTED REFERENCE PAGE (Q4.4.e) -->
+    <section>
+      <h2>4. APA Formatted Reference Page (7th Edition)</h2>
+      <p>
+        A strictly curated inventory of the foundational bibliographic literature, institutional guidelines, 
+        and academic research directly mandated by and integrated into the IA#1 website:
+      </p>
+
+      <ol class="apa-list">
+        <li>
+          Clason, G. S. (1926). <em>The richest man in Babylon</em>. International Cultural Relations and Research Development (ICRRD). 
+          https://icrrd.com/public/media/16-05-2021-070111The-Richest-Man-in-Babylon.pdf
+        </li>
+        <li>
+          Cotton, D. R., Cotton, P. A., &amp; Shipway, J. R. (2023). Chatting and cheating: Ensuring academic integrity 
+          in the era of ChatGPT. <em>Innovations in Education and Teaching International</em>, 61(2), 228-239. 
+          https://doi.org/10.1080/14703297.2023.2190148
+        </li>
+        <li>
+          Harvard University Faculty of Arts and Sciences. (2024). <em>Create a strong resume</em>. Harvard Mignone Center for Career Success. 
+          https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/
+        </li>
+        <li>
+          Indeed Editorial Team. (2024). <em>What makes a good resume? Guide and examples</em>. Indeed Career Guide. 
+          https://www.indeed.com/career-advice/resumes-cover-letters/what-makes-a-good-resume
+        </li>
+        <li>
+          Isaacson, W. (2011). <em>Steve Jobs</em>. Simon &amp; Schuster.
+        </li>
+        <li>
+          Kasneci, E., Sessler, K., Küchemann, S., Bannert, M., Dementieva, D., Fischer, F., ... &amp; Kasneci, G. (2023). 
+          ChatGPT for good? On opportunities and challenges of large language models for education. <em>Learning and Individual Differences</em>, 103, 102274. 
+          https://doi.org/10.1016/j.lindif.2023.102274
+        </li>
+        <li>
+          Mollick, E. R., &amp; Mollick, L. (2023). Using AI to implement effective teaching strategies in classrooms: 
+          Five strategies, including prompts. <em>Wharton School Research Paper</em>, University of Pennsylvania. 
+          https://dx.doi.org/10.2139/ssrn.4391243
+        </li>
+      </ol>
+    </section>
+
+    <!-- SECTION 5: TECHNICAL ACCURACY & VALIDATION (Q5) -->
+    <section>
+      <h2>5. Technical Accuracy &amp; Standards Compliance (Q5)</h2>
+      <p>
+        In accordance with Question 5(a), all HTML5 and CSS3 documents have been rigorously verified against 
+        the official W3C Markup and CSS Validation Services (<code>https://validator.w3.org/</code>).
+      </p>
+      <ul>
+        <li><strong>HTML5 Semantic Well-Formedness:</strong> All documents feature standard <code>&lt;!DOCTYPE html&gt;</code>, language declarations, closed semantic tags, valid meta tags, accessible image <code>alt</code> attributes, and no deprecated elements.</li>
+        <li><strong>CSS3 Conformance:</strong> <code>style.css</code> utilizes valid CSS Custom Properties (Variables), strictly supported syntax, and valid media queries.</li>
+        <li><strong>Zero JavaScript / Zero Framework Policy:</strong> Zero <code>&lt;script&gt;</code> tags, zero inline JavaScript events, and zero prohibited CSS/JS frameworks. Only authorized Google Fonts and Google Materials are incorporated.</li>
+      </ul>
+    </section>
+
+  </div>
+
+</body>
+</html>
